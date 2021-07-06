@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import { GlobalStyle } from './styles/global'
 import Header from './components/Header';
-
+import Dashboard from './components/Dashboard';
 
 
 export function App() {
@@ -9,6 +9,8 @@ export function App() {
     <div className="App">
       <GlobalStyle />
       <Header />
+      <Dashboard />
+
     </div>
   );
 }
